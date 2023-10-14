@@ -1,0 +1,104 @@
+
+#timeline {
+    width: 100%;
+    height: 400px;
+    font-family:  Nunito,sans-serif !important;
+  
+  }
+
+.tl-timeline h2{
+    color:#004aad !important;
+  }
+  #timeline  p,h1,h3{
+    font-family:  Nunito,sans-serif !important
+  }
+  .timeline-event-card {
+    background-color: #bdbfc1;
+    font-family:  Nunito,sans-serif !important
+  }
+
+.tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-icon,.tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-icon{
+    color: #bdbfc1 !important;
+    opacity: 1 !important;
+}
+
+.tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-icon:hover,.tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-icon:hover{
+    color: #004aad !important;
+    opacity: 1 !important;
+}
+  .timeline-event-line {
+    display: none; /* Hide the vertical lines */
+  }
+  .tl-timeline .tl-timenav-slider{
+    font-family:  Nunito,sans-serif !important 
+  }
+  .tl-timeline {
+    background-color: #fafbfe !important;}
+
+    .js-plotly-plot .plotly .modebar {
+    background-color: #004aad;
+    }
+   
+.bottun-color,.css-190lt46-MuiButtonBase-root-MuiButton-root{
+  background-color:#004aad !important;
+  color: #fff !important;
+}
+.css-if7jzm-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color:#004aad !important
+}
+.css-123cq2t-MuiSvgIcon-root{
+  color:#004aad !important
+}
+.css-if7jzm-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+
+  color:#004aad !important
+}
+.bottun-color:hover{
+  background-color:#004aad !important;
+  color: #fff !important;
+}
+  
+  
+    .heatmap-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+.tabes{
+  align-items: center;
+  text-align: center;
+
+}
+.list-itm{
+  list-style-type: none;
+  margin-right: 30px;
+}
+.shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in{
+  background-color: #004aad;
+}
+
+.css-1nrlq1o-MuiFormControl-root {
+  display: inline !important;
+ 
+}
+.css-j6wpju-MuiPaper-root-MuiCard-root{
+  overflow: visible;
+}
+.css-46bh2p-MuiCardContent-root:last-child{
+  width:550px
+}
+.css-ahj2mt-MuiTypography-root{
+  font-size: 13px;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked{
+  color: #004aad !important;
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/system": "^4.12.2",
+    "clipboard-copy": "^4.0.1",
+    "helmet": "^7.0.0",
+    "material-ui-dropzone": "^3.5.0",
+    "mui-datatables": "^3.8.0",
+    "plotly.js": "^2.24.3",
+    "react-helmet": "^6.1.0",
+    "react-loading": "^2.0.3",
+    "react-material-file-upload": "^0.0.4",
+    "react-plotly.js": "^2.6.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "timelinejs": "^2.35.6"
+  }
+}

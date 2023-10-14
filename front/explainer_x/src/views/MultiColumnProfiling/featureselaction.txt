@@ -1,0 +1,60 @@
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import Checkbox from '@mui/material/Checkbox';
+const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
+const checkedIcon = <CheckBoxIcon fontSize="small" />;
+     const defaultValues = [features[0], features[2]];
+   
+       <Grid item lg={6} md={4} sm={12} xs={12}>
+      {isLoading? <SkeletonEarningCard/> :(
+        <>
+           <Autocomplete
+      multiple
+      id="checkboxes-tags-demo"
+      options={features}
+      disableCloseOnSelect
+      getOptionLabel={(option) => option.label}
+      renderOption={(props, option, { selected }) => (
+        <li {...props}>
+          <Checkbox
+            icon={icon}
+            checkedIcon={checkedIcon}
+            style={{ marginRight: 8 }}
+            checked={selected}
+          />
+          {option.label}
+        </li>
+      )}
+   
+      renderInput={(params) => (
+        <TextField {...params} label="Features for Electricity Forcasting" />
+      )}
+    />
+
+
+<Autocomplete
+style={{marginTop:'30px'}}
+      multiple
+      id="checkboxes-tags-demo"
+      options={features}
+      defaultValue={defaultValues}
+      disableCloseOnSelect
+      getOptionLabel={(option) => option.label}
+      renderOption={(props, option, { selected }) => (
+        <li {...props}>
+          <Checkbox
+            icon={icon}
+            checkedIcon={checkedIcon}
+            style={{ marginRight: 8 }}
+           
+            checked={selected}
+          />
+          {option.label}
+        </li>
+      )}
+    
+      renderInput={(params) => (
+        <TextField {...params} label="Features for Gas Forcasting" />
+      )}
+    /></>)}
+           </Grid> 
